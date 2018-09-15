@@ -1,33 +1,49 @@
 ---
 title: "Recommandations de lectures"
 author: "David Beauchemin"
-date: "13 septembre 2018"
-output: pdf_document
+date: "`r format(Sys.time(), '%Y-%m-%d')`"
+output:
+  pdf_document:
+    fig_caption: yes
+    highlight: tango
+    number_sections: yes
+    toc: yes
+    toc_depth: 2
+fontsize: 12pt
+geometry: margin=1in
+lang: fr
+documentclass: article
+urlcolor: blue
+header-includes:
+  - \usepackage{amsmath}
+  - \usepackage{tcolorbox}
 ---
+
+\newpage
 
 # Introduction
 Voici une liste de recommandation de lectures pour se familiariser avec la programmation et différents concepts clés du projet de Métrique intergénérationnelle.
 
 ## Java
 
-1. ![Wiki & ateliers](http://www2.ift.ulaval.ca/gaudreault/dokuwiki_a14/doku.php?id=start) du cours GLO-2004: Génie logiciel orienté objet
+1. [Wiki & ateliers](http://www2.ift.ulaval.ca/gaudreault/dokuwiki_a14/doku.php?id=start) du cours GLO-2004: Génie logiciel orienté objet
      1. Nom d'utilisateur: etudiants
      2. Mot de passe: etudiantsulaval
 
-2. ![Java for programmers](http://ariane.ulaval.ca/cgi-bin/recherche.cgi?qu=a1995576) Chapitre: 1-8, 12-13
+2. [Java for programmers](http://ariane.ulaval.ca/cgi-bin/recherche.cgi?qu=a1995576) Chapitre: 1-8, 12-13
 
 ## NetBeans
 
-1. ![Tutorial](https://netbeans.org/kb/trails/matisse.html) NetBeans
-2. ![Tutoriel](https://codes-sources.commentcamarche.net/faq/1338-demarrage-rapide-avec-netbeans-ide) NetBeans
-2. ![Vidéo tutoriel](https://www.youtube.com/watch?v=UTJBCMJJW_E) NetBeans
+1. [Tutorial](https://netbeans.org/kb/trails/matisse.html) NetBeans
+2. [Tutoriel](https://codes-sources.commentcamarche.net/faq/1338-demarrage-rapide-avec-netbeans-ide) NetBeans
+2. [Vidéo tutoriel](https://www.youtube.com/watch?v=UTJBCMJJW_E) NetBeans
 
 ## Compétences en programmation
 
 1. *Clean code* - Chapitre 1 à 6
-2. ![*Dette technique*](https://martinfowler.com/bliki/TechnicalDebt.html) et son ![*impact*](https://daedtech.com/human-cost-tech-debt/) dans le projet
+2. [*Dette technique*](https://martinfowler.com/bliki/TechnicalDebt.html) et son [*impact*](https://daedtech.com/human-cost-tech-debt/) dans le projet
 
 ## Autres outils
 
-1. ![Trello](https://trello.com/)
-2. ![Harvest](https://www.getharvest.com)
+1. [Trello](https://trello.com/)
+2. [Harvest](https://www.getharvest.com)
