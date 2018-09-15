@@ -5,3 +5,7 @@ Repository of public information about the Intergenerational Equity project.
 
 ## Calcul Québec
 Documentation relative to connexion, execution and file transfert with the Calcul Québec supercomputer.
+
+## Ref
+Document de référence pour les outils et connaissance du projet.
+
