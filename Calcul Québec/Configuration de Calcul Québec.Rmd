@@ -132,7 +132,7 @@ Tout d'abord, il est important de lire la [documentation](https://wiki.calculque
 
 Voici une liste des modules nécessaires au moment d'écrire ce document :
 
-1. Java/1.8.0_45 - ou la plus récente version
+1. Java/1.7.0_51 - ou la plus récente version
 2. 
 
 ## Exécution d'une tâche
