@@ -1,0 +1,27 @@
+---
+title: "FAQ"
+author: "David Beauchemin"
+date: "`r format(Sys.time(), '%Y-%m-%d')`"
+output:
+  pdf_document:
+    fig_caption: yes
+    highlight: tango
+    number_sections: yes
+    toc: yes
+    toc_depth: 2
+fontsize: 12pt
+geometry: margin=1in
+lang: fr
+documentclass: article
+urlcolor: blue
+header-includes:
+  - \usepackage{amsmath}
+  - \usepackage{tcolorbox}
+---
+
+\newpage
+
+# FAQ
+Document de référence pour les questions relatives au projet.
+
+## 

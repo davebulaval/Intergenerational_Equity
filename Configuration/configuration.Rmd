@@ -1,0 +1,67 @@
+---
+title: "Configuration"
+author: "David Beauchemin & Sebastien Roy"
+date: "`r format(Sys.time(), '%Y-%m-%d')`"
+output:
+  pdf_document:
+    fig_caption: yes
+    highlight: tango
+    number_sections: yes
+    toc: yes
+    toc_depth: 2
+fontsize: 12pt
+geometry: margin=1in
+lang: fr
+documentclass: article
+urlcolor: blue
+header-includes:
+  - \usepackage{amsmath}
+  - \usepackage{tcolorbox}
+---
+
+\newpage
+
+# Installations de l'environnement
+
+1. Télécharger la dernière JDK.
+2. Télécharger et installer NetBeans 7.4
+
+# Importation du projet
+
+1. Télécharger le ZIP du projet
+2. Extraire le ZIP dans un dossier approprié
+3. À partir de NetBeans 
+    1. File
+    2.  Open Project ...
+    3. Sélection du dossier du projet extrait. Le dossier devrait avoir un logo d'une tasse de café rouge.
+    4. Il devrait y avoir des messages d'erreurs. Il faut les régler pour finir l'ouverture du projet.
+
+# Compilation et exécution d'un fichier
+Les fichiers ont de nombreuses dépendances entre eux. Il y a donc parfois un ordre de compilation à effectuer.
+
+Pour effectuer une compilation, il faut utiliser la touche `F9` ou clic droit sur le fichier et `Compile File`. Une compilation réussie affiche un message contenant **BUILD SUCCESSFUL**.
+
+1. Il faut d'abord compiler des fichiers dans le répertoire act/util
+  1. Utilitaires.java
+  2. Date.java
+  3. Stringable.java
+  4. DateHeurePresente.java
+  5. DeskPath.jav
+  6. Ce.java
+  7. CloseableFrame.java
+  8. Nom.java
+  9. TestCe.java
+  10. courbes_R.java
+  11. TestCourbes_R.java
+  12. testRCaller.java
+  13. TestPrecision.java
+  14. TestHypotheses.java
+  15. GenerateurTauxAméliorationQx.java
+  16. GenerateurTauxProjection.java
+  17. Random.java
+  18. TestRandom.java
+  19. TestGenerateurAmelioration.java (utilise le précédent)
+  20. ArrayListOnZ.java (des arrays indicés avec des nombres négatifs sur l'ensemble Z avec cet objet.
+  21. ArrayCaster.java
+  22. ActuJFileChooser.java
+2. Par la suite, les autres répertoires pourront être compilés selon le besoin.
