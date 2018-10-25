@@ -23,7 +23,7 @@ header-includes:
 
 # Installations de l'environnement
 
-1. Télécharger la dernière JDK.
+1. Télécharger la dernière JDK compatible avec la version 7.4 de NetBeans.
 2. Télécharger et installer NetBeans 7.4
 
 # Importation du projet
@@ -35,6 +35,8 @@ header-includes:
     2.  Open Project ...
     3. Sélection du dossier du projet extrait. Le dossier devrait avoir un logo d'une tasse de café rouge.
     4. Il devrait y avoir des messages d'erreurs. Il faut les régler pour finir l'ouverture du projet.
+    5. S'assurer de bien définir le "PATH" lors de la correction des erreurs (choisir les bon fichiers).
+    6. Si les erreurs sont bien réglées, il sera possible de voir les fichiers sous la forme .java.
 
 # Compilation et exécution d'un fichier
 Les fichiers ont de nombreuses dépendances entre eux. Il y a donc parfois un ordre de compilation à effectuer.
