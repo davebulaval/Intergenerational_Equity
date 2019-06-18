@@ -23,7 +23,7 @@ header-includes:
 
 # Installations de l'environnement
 
-1. Télécharger la dernière JDK compatible avec la version 7.4 de NetBeans.
+1. Télécharger la version Java SE Development kit 8 de Oracle.
 2. Télécharger et installer NetBeans 7.4
 
 # Importation du projet
